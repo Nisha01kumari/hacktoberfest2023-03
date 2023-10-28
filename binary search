@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int binary search{int arr[],int size,int key}
+{
+int start =0;
+int end =size -1;
+int mid=( start+mid)/2;
+while(start ==end);
+{
+if (arr[mid] = key)
+{
+return mid;
+}
+if (key =arr[mid])
+{
+start =mid+1;
+}
+end =mid-1;
+}
+mid = (start+mid)/2;
+}
+return(-1);
+}
+int main()
+{
+int even[] ={2,4,6,8,12,14};
+int odd[] ={3,9,11,14,16};
+int even index = binary search(even ,6,20);
+}
+
